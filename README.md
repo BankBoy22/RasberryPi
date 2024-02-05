@@ -6,4 +6,5 @@
 ### 3일차 - 부저를 이용한 멜로디 재생
 ### 4일차 - (sw)버튼을 통한 제어 , Sound Sensor
 ### 5일차 - DC Motor, Step Motor, Light Sensor, Ultrasonic Sensor, Temperature and humidity sensor, Variable resistance 제어 , 쓰레드
+### 6일차 - flask를 이용해 간단한 웹 사이트 만들고 웹에서 LED 제어
 

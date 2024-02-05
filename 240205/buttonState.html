@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>라즈베리 파이 상태 뷰</title>
+</head>
+<body>
+    <h1>라즈베리 파이의 스위치 눌림여부를 웹사이트로 전달</h1>
+    <hr>
+    <div style="padding-left:20px;">
+        <h3>라즈베리 파이의 스위치 눌림여부</h3>
+        <p style = "color:red;">
+            <b>왼쪽 스위치 : {% if sw_state_list[0] == 1 %} 눌림 {% else %} 안눌림 {% endif %}</b>
+        <hr>
+        <p style = "color:green;">
+            <b>중간 스위치 : {% if sw_state_list[1] == 1 %} 눌림 {% else %} 안눌림 {% endif %}</b>
+        <hr>
+        <p style = "color:blue;">
+            <b>오른쪽 스위치 : {% if sw_state_list[2] == 1 %} 눌림 {% else %} 안눌림 {% endif %}</b>
+        <hr>
+    </div>
+</body>
+</html>

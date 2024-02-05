@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+</head>
+<body>​
+
+    <h1>Web에서 라즈베리파이의 LED 제어하기</h1>​
+
+    <hr>​
+    <div style="padding-left:20px;">
+    <div>​
+
+        <h3>빨강,초록,파랑 LED 각각 제어</h3>​
+
+        <p style="color:red;">
+            <b>빨강색 LED 제어</b>
+            <a href = "{{url_for('LED_control', color='red', action='on')}}"><input type = "button" value="ON"> </a>
+            <a href = "{{url_for('LED_control', color='red', action='off')}}"><input type = "button" value="OFF"> </a>
+        </p>​
+
+        <p style="color:green;">
+            <b>초록색 LED 제어</b>
+            <a href = "{{url_for('LED_control', color='green', action='on')}}"><input type = "button" value="ON"> </a>
+            <a href = "{{url_for('LED_control', color='green', action='off')}}"><input type = "button" value="OFF"> </a>
+        </p>​
+
+        <p style="color:blue;">
+            <b>파랑색 LED 제어</b>
+            <a href = "{{url_for('LED_control', color='blue', action='on')}}"><input type = "button" value="ON"> </a>
+            <a href = "{{url_for('LED_control', color='blue', action='off')}}"><input type = "button" value="OFF"> </a>
+        </p>​
+
+        <hr>
+        <p>
+            <b>모든 LED 제어하기</b>
+            <a href = "{{url_for('Whole_control', action='on')}}"><input type = "button" value="ON"> </a>
+            <a href = "{{url_for('Whole_control', action='off')}}"><input type = "button" value="OFF"> </a>
+        </p>
+
+    </div>​
+
+</body>
+</html>
